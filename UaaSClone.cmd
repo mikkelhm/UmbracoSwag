@@ -1,0 +1,1 @@
+git clone https://umbraco-swag.scm.s1.umbraco.io/2747d678-9b9c-4047-b05c-00024e9e4076.git UmbracoSwag.Web
