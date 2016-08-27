@@ -177,6 +177,9 @@
     <Folder Include="Controllers\" />
     <Folder Include="Models\" />
   </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Extensions\StringExtensions.cs" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>
     <PostBuildEvent>XCOPY /s /y "$(TargetDir)$(ProjectName).*" "$(ProjectDir)\..\$(SolutionName).Web\bin\"</PostBuildEvent>
